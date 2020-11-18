@@ -1,0 +1,16 @@
+.Development {
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width: 600px) {
+    .Development {
+        width: 100%;
+    }
+}

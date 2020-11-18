@@ -1,0 +1,13 @@
+.InfoCard {
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+
+@media (min-width: 600px) {
+    .InfoCard {
+        width: 70%;
+    }
+}

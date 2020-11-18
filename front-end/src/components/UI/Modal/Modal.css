@@ -1,0 +1,19 @@
+.Modal {
+    z-index: 500;
+    background-color: white;
+    /* border: 1px solid #ccc; */
+    transition: all 2.3s ease-out;
+    text-align: center;
+}
+
+.Modal img {
+    /* width: 90%; */
+    height: 88vh;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 100%;
+        cursor: pointer;
+    }
+}

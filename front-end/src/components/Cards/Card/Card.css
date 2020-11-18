@@ -1,0 +1,21 @@
+.Card {
+    margin: 10px auto;
+    text-align: center;
+    /* padding: 10px; */
+    border: 1px solid #eee;
+    width: 200px;
+}
+
+.Card img {
+    width: 100%;
+    cursor: pointer;
+    /* height: 200px; */
+}
+
+@media (min-width: 600px) {
+    .Card {
+        width: 30%;
+        /* height: 200px; */
+        margin: 5px;
+    }
+}
